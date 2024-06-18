@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[===to connect with Server===]]>
+    </line>
+    <line>
+      <![CDATA[===Connect to the Database===]]>
+    </line>
+    <line>
+      <![CDATA[===to launch the Browser===]]>
+    </line>
+    <line>
+      <![CDATA[===Login Successfully===]]>
+    </line>
+    <line>
+      <![CDATA[===Test Script 1===]]>
+    </line>
+    <line>
+      <![CDATA[===Logout Successfully===]]>
+    </line>
+    <line>
+      <![CDATA[===Close the Browser===]]>
+    </line>
+    <line>
+      <![CDATA[===Close the Connection with database===]]>
+    </line>
+    <line>
+      <![CDATA[===Close the connection with Server===]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-17T15:28:28Z" name="Default suite" finished-at="2024-06-17T15:28:28Z" duration-ms="24">
+    <groups>
+    </groups>
+    <test started-at="2024-06-17T15:28:28Z" name="Default test" finished-at="2024-06-17T15:28:28Z" duration-ms="24">
+      <class name="LearningTestng.AnnotationTestNg">
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:LearningTestng.AnnotationTestNg@70ed52de]" started-at="2024-06-17T15:28:28Z" name="BeforeSuite" finished-at="2024-06-17T15:28:28Z" duration-ms="10" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[===to connect with Server===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:LearningTestng.AnnotationTestNg@70ed52de]" started-at="2024-06-17T15:28:28Z" name="BeforeTest" finished-at="2024-06-17T15:28:28Z" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[===Connect to the Database===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:LearningTestng.AnnotationTestNg@70ed52de]" started-at="2024-06-17T15:28:28Z" name="BeforeClass" finished-at="2024-06-17T15:28:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[===to launch the Browser===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:LearningTestng.AnnotationTestNg@70ed52de]" started-at="2024-06-17T15:28:28Z" name="BeforeMethod" finished-at="2024-06-17T15:28:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[===Login Successfully===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Test()[pri:0, instance:LearningTestng.AnnotationTestNg@70ed52de]" started-at="2024-06-17T15:28:28Z" name="Test" finished-at="2024-06-17T15:28:28Z" duration-ms="6" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[===Test Script 1===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:LearningTestng.AnnotationTestNg@70ed52de]" started-at="2024-06-17T15:28:28Z" name="AfterMethod" finished-at="2024-06-17T15:28:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[===Logout Successfully===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:LearningTestng.AnnotationTestNg@70ed52de]" started-at="2024-06-17T15:28:28Z" name="AfterClass" finished-at="2024-06-17T15:28:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[===Close the Browser===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:LearningTestng.AnnotationTestNg@70ed52de]" started-at="2024-06-17T15:28:28Z" name="AfterTest" finished-at="2024-06-17T15:28:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[===Close the Connection with database===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method is-config="true" signature="AfterSuite()[pri:0, instance:LearningTestng.AnnotationTestNg@70ed52de]" started-at="2024-06-17T15:28:28Z" name="AfterSuite" finished-at="2024-06-17T15:28:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[===Close the connection with Server===]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterSuite -->
+      </class> <!-- LearningTestng.AnnotationTestNg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
