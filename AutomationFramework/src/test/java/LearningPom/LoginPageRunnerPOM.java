@@ -18,11 +18,11 @@ public class LoginPageRunnerPOM {
 		
 		LoginPagePOM lp = new LoginPagePOM(driver);
 		
-		WebElement username = lp.getUsernameTextField();
+		lp.getUsernameTextField().sendKeys("admin");
+		lp.getPasswordTextField().sendKeys("manager");
 		
-		driver.navigate().refresh();
 		
-		username.sendKeys("admin");
+		
 		
 
 	}
