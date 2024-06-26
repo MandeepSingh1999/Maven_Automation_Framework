@@ -12,20 +12,20 @@ public class LoginPagePOM {
 	}
 
 	@FindBy(name = "username")
-	private WebElement usernameTextField;
+	private WebElement username;
 	
 	@FindBy(name = "pwd")
-	private WebElement passwordTextField;
+	private WebElement password;
 	
 	@FindBy(id = "loginButton")
 	private WebElement loginButton;
 
-	public WebElement getUsernameTextField() {
-		return usernameTextField;
+	public WebElement getUsername() {
+		return username;
 	}
 
-	public WebElement getPasswordTextField() {
-		return passwordTextField;
+	public WebElement getPassword() {
+		return password;
 	}
 
 	public WebElement getLoginButton() {

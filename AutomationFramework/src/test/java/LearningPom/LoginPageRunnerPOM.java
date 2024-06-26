@@ -18,8 +18,8 @@ public class LoginPageRunnerPOM {
 		
 		LoginPagePOM lp = new LoginPagePOM(driver);
 		
-		lp.getUsernameTextField().sendKeys("admin");
-		lp.getPasswordTextField().sendKeys("manager");
+		lp.getUsername().sendKeys("admin");
+		lp.getPassword().sendKeys("manager");
 		
 		
 		
